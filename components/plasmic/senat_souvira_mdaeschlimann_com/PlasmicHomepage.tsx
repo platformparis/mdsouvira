@@ -760,7 +760,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {
-                  "Nous avons bien re\u00e7u votre formulaire.\nMerci pour votre inscription au \nComit\u00e9 des experts avec Eric Mestrallet."
+                  "Nous avons bien re\u00e7u votre formulaire.\nMerci pour votre inscription au \nComit\u00e9 des experts avec Anne Souvira."
                 }
               </div>
             ) : null}
