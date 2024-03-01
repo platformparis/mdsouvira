@@ -99,6 +99,78 @@
         }
       ],
       "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+      "version": "latest",
+      "dependencies": {
+        "ohDidvG9XsCeFumugENU3J": "6.20.0",
+        "8PtdGodUbexNYgkuyBUcWu": "3.22.0"
+      },
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "EvC0iLF-2fmS",
+          "checksum": "5f46f0bfe5917d40c48d840e52bd512a"
+        },
+        {
+          "assetId": "3CxELhjTa5D7QCGXYnEjiH",
+          "type": "projectCss",
+          "checksum": "02b5f546f4e28f34fd33f8174dd2c605"
+        },
+        {
+          "assetId": "3CxELhjTa5D7QCGXYnEjiH",
+          "checksum": "4dc2f123e5d9eb926a52591c638d454f",
+          "type": "globalContexts"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "pQ6Osvktc0qv",
+          "checksum": "9d27b20868ff72da7784cedfe9be7089"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "pQ6Osvktc0qv",
+          "checksum": "9d27b20868ff72da7784cedfe9be7089"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "0DoTBtuv1YSb",
+          "checksum": "96eac00a4235a92161edb5ff0b688ac5"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "0DoTBtuv1YSb",
+          "checksum": "96eac00a4235a92161edb5ff0b688ac5"
+        },
+        {
+          "type": "image",
+          "assetId": "o0w7jkXlFM_z",
+          "checksum": "71d6ddf42363e87d06d957753c66d2b0"
+        },
+        {
+          "type": "image",
+          "assetId": "oY8O9CHC58xF",
+          "checksum": "b5198ac47b565a8360bc2cf437d4f0de"
+        },
+        {
+          "type": "image",
+          "assetId": "Gne_Z4wPUIix",
+          "checksum": "1a0e85549655983423c76013267ee6a9"
+        },
+        {
+          "type": "image",
+          "assetId": "aMYzomXPYuaI",
+          "checksum": "a4a64ce07b63f8576ddd56693f6947cd"
+        },
+        {
+          "type": "image",
+          "assetId": "Ejci3hUI2nqQ",
+          "checksum": "fd1b5b2ced7411deddda0e80bfaea210"
+        }
+      ],
+      "codegenVersion": "0.0.1"
     }
   ],
   "cliVersion": "0.1.327"

@@ -2,9 +2,9 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
-import GlobalContextsProvider from "../components/plasmic/senat_cs_2_mdaeschlimann_com/PlasmicGlobalContextsProvider";
-import { ScreenVariantProvider } from "../components/plasmic/senat_cs_2_mdaeschlimann_com/PlasmicGlobalVariant__Screen";
-import { PlasmicHomepage } from "../components/plasmic/senat_cs_2_mdaeschlimann_com/PlasmicHomepage";
+import GlobalContextsProvider from "../components/plasmic/senat_souvira_mdaeschlimann_com/PlasmicGlobalContextsProvider";
+import { ScreenVariantProvider } from "../components/plasmic/senat_souvira_mdaeschlimann_com/PlasmicGlobalVariant__Screen";
+import { PlasmicHomepage } from "../components/plasmic/senat_souvira_mdaeschlimann_com/PlasmicHomepage";
 import { useRouter } from "next/router";
 
 function Homepage() {

@@ -1029,6 +1029,16 @@
         "projectId": "2yr4aVZ2x1Tc7VYQCrTrMc",
         "id": "9CDxn0hpnzzB"
       }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+        "id": "AnywKFtNr0Ry"
+      }
     }
   ],
   "global": {

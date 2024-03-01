@@ -499,7 +499,8 @@
           "componentImportPath": "./components/PhoneInput"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "8PtdGodUbexNYgkuyBUcWu",
@@ -523,6 +524,95 @@
       ],
       "customFunctions": [],
       "jsBundleThemes": []
+    },
+    {
+      "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+      "projectApiToken": "Nt9il6BIGeL33rqJZyZ1qxcMmC24sTzm0EeekA2vCDCqzVrdNpNa4ekaht36P6tkqqs1FdxeGfk7jZy9e2vqg",
+      "projectName": "senat-souvira.mdaeschlimann.com",
+      "version": "latest",
+      "cssFilePath": "plasmic/senat_souvira_mdaeschlimann_com/plasmic.module.css",
+      "components": [
+        {
+          "id": "pQ6Osvktc0qv",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+          "renderModuleFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "0DoTBtuv1YSb",
+          "name": "MentionsLegalesEtPolitiqueDeConfidentialite",
+          "type": "managed",
+          "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+          "renderModuleFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicMentionsLegalesEtPolitiqueDeConfidentialite.tsx",
+          "importSpec": {
+            "modulePath": "../pages/mentions-legales-et-politique-de-confidentialite.tsx"
+          },
+          "cssFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicMentionsLegalesEtPolitiqueDeConfidentialite.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/mentions-legales-et-politique-de-confidentialite"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "o0w7jkXlFM_z",
+          "name": "2023-449-120-SK.jpg",
+          "filePath": "../public/plasmic/senat_souvira_mdaeschlimann_com/images/_2023449120SKjpg.jpg"
+        },
+        {
+          "id": "oY8O9CHC58xF",
+          "name": "2023-0499-096-CL.jpg",
+          "filePath": "../public/plasmic/senat_souvira_mdaeschlimann_com/images/_20230499096CLjpg.jpg"
+        },
+        {
+          "id": "Gne_Z4wPUIix",
+          "name": "conseil-senatorial.jpg",
+          "filePath": "../public/plasmic/senat_souvira_mdaeschlimann_com/images/conseilSenatorialjpg.jpg"
+        },
+        {
+          "id": "aMYzomXPYuaI",
+          "name": "Eric mestrallet.jpeg",
+          "filePath": "../public/plasmic/senat_souvira_mdaeschlimann_com/images/ericMestralletjpeg.jpg"
+        },
+        {
+          "id": "Ejci3hUI2nqQ",
+          "name": "Anne Souvira_2.jpg",
+          "filePath": "../public/plasmic/senat_souvira_mdaeschlimann_com/images/anneSouvira2Jpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "7PjO4XOtqdHU",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "xFAMhYUeQnfe",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "gwlmUBHHY9Xa",
+          "name": "PhoneInput",
+          "displayName": "PhoneInput",
+          "componentImportPath": "./components/PhoneInput"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
@@ -532,6 +622,12 @@
         "name": "Screen",
         "projectId": "2yr4aVZ2x1Tc7VYQCrTrMc",
         "contextFilePath": "plasmic/senat_cs_2_mdaeschlimann_com/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "EvC0iLF-2fmS",
+        "name": "Screen",
+        "projectId": "3CxELhjTa5D7QCGXYnEjiH",
+        "contextFilePath": "plasmic/senat_souvira_mdaeschlimann_com/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },
