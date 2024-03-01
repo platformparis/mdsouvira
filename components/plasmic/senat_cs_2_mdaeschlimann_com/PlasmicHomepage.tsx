@@ -282,7 +282,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Inscription au Conseil s\u00e9natorial\nde Marie-Do Aeschlimann\ndu 13 mars 2024"
+                "Inscription au Conseil s\u00e9natorial\nde Marie-Do Aeschlimann\n13 mars 2024"
               }
             </h1>
           </div>
