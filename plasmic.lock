@@ -23,7 +23,8 @@
       "projectId": "2yr4aVZ2x1Tc7VYQCrTrMc",
       "version": "latest",
       "dependencies": {
-        "ohDidvG9XsCeFumugENU3J": "6.20.0"
+        "ohDidvG9XsCeFumugENU3J": "6.20.0",
+        "8PtdGodUbexNYgkuyBUcWu": "3.22.0"
       },
       "lang": "ts",
       "fileLocks": [
@@ -34,18 +35,18 @@
         },
         {
           "assetId": "2yr4aVZ2x1Tc7VYQCrTrMc",
-          "checksum": "0a559a4d75996671acd1ac67bc166e99",
+          "checksum": "00eecf4a9f2b749b1d4831fe247def97",
           "type": "globalContexts"
         },
         {
           "type": "renderModule",
           "assetId": "fiDYc3em5cLw",
-          "checksum": "3e671c3818ce71a88ea822a4c94b580e"
+          "checksum": "651cf5f6f1dec7ff39b2852cec9779d1"
         },
         {
           "type": "cssRules",
           "assetId": "fiDYc3em5cLw",
-          "checksum": "3e671c3818ce71a88ea822a4c94b580e"
+          "checksum": "651cf5f6f1dec7ff39b2852cec9779d1"
         },
         {
           "type": "renderModule",
