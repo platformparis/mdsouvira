@@ -210,20 +210,7 @@ function PlasmicHomepage__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-        <title key="title">{PlasmicHomepage.pageMetadata.title}</title>
-        <meta
-          key="og:title"
-          property="og:title"
-          content={PlasmicHomepage.pageMetadata.title}
-        />
-        <meta
-          key="twitter:title"
-          name="twitter:title"
-          content={PlasmicHomepage.pageMetadata.title}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -337,7 +324,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             const actionArgs = {
                               dataOp: {
                                 sourceId: "ddBdpqNybrhmL3gA2tP2BN",
-                                opId: "1b356a27-67fe-4a04-a61c-0b8d8451e63a",
+                                opId: "64f187df-c560-4c75-b510-45e6e9696777",
                                 userArgs: {
                                   body: [values]
                                 },
@@ -755,9 +742,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   if (window.self !== window.top) {
                     return false;
                   } else {
-                    return document.cookie.includes("lesenat=true")
-                      ? true
-                      : false;
+                    return document.cookie.includes("cs2=true") ? true : false;
                   }
                 })();
               } catch (e) {
@@ -923,8 +908,7 @@ export const PlasmicHomepage = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title:
-        "Inscription au Conseil sénatorial de Marie-Do Aeschlimann du 13 mars 2024",
+      title: "",
       description: "",
       ogImageSrc: "",
       canonical: ""
