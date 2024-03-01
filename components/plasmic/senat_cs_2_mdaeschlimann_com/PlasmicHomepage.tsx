@@ -71,6 +71,7 @@ import { formHelpers as FormWrapper_Helpers } from "@plasmicpkgs/antd5/skinny/Fo
 import { FormItemWrapper } from "@plasmicpkgs/antd5/skinny/FormItem";
 import { AntdInput } from "@plasmicpkgs/antd5/skinny/registerInput";
 import { inputHelpers as AntdInput_Helpers } from "@plasmicpkgs/antd5/skinny/registerInput";
+import { PhoneInput } from "../../PhoneInput"; // plasmic-import: J_12Q951wsci/codeComponent
 import { AntdCheckbox } from "@plasmicpkgs/antd5/skinny/registerCheckbox";
 import { AntdButton } from "@plasmicpkgs/antd5/skinny/registerButton";
 
@@ -100,6 +101,7 @@ export type PlasmicHomepage__OverridesType = {
   form?: Flex__<typeof FormWrapper>;
   input?: Flex__<typeof AntdInput>;
   input2?: Flex__<typeof AntdInput>;
+  phoneInput?: Flex__<typeof PhoneInput>;
   input3?: Flex__<typeof AntdInput>;
   checkbox?: Flex__<typeof AntdCheckbox>;
   link?: Flex__<"a"> & Partial<LinkProps>;
@@ -282,7 +284,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Inscription au Conseil s\u00e9natorial\nde Marie-Do Aeschlimann\ndu 13 mars 2024"
+                "Inscription au Conseil s\u00e9natorial\nde Marie-Do Aeschlimann\n13 mars 2024"
               }
             </h1>
           </div>
@@ -586,7 +588,16 @@ function PlasmicHomepage__RenderFunc(props: {
                             projectcss.all,
                             sty.freeBox__xila
                           )}
-                        />
+                        >
+                          <PhoneInput
+                            data-plasmic-name={"phoneInput"}
+                            data-plasmic-override={overrides.phoneInput}
+                            className={classNames(
+                              "__wab_instance",
+                              sty.phoneInput
+                            )}
+                          />
+                        </div>
                       </FormItemWrapper>
                       <FormItemWrapper
                         className={classNames(
@@ -786,6 +797,7 @@ const PlasmicDescendants = {
     "form",
     "input",
     "input2",
+    "phoneInput",
     "input3",
     "checkbox",
     "link",
@@ -794,9 +806,19 @@ const PlasmicDescendants = {
   ],
   img: ["img"],
   h1: ["h1"],
-  form: ["form", "input", "input2", "input3", "checkbox", "link", "button"],
+  form: [
+    "form",
+    "input",
+    "input2",
+    "phoneInput",
+    "input3",
+    "checkbox",
+    "link",
+    "button"
+  ],
   input: ["input"],
   input2: ["input2"],
+  phoneInput: ["phoneInput"],
   input3: ["input3"],
   checkbox: ["checkbox", "link"],
   link: ["link"],
@@ -813,6 +835,7 @@ type NodeDefaultElementType = {
   form: typeof FormWrapper;
   input: typeof AntdInput;
   input2: typeof AntdInput;
+  phoneInput: typeof PhoneInput;
   input3: typeof AntdInput;
   checkbox: typeof AntdCheckbox;
   link: "a";
@@ -885,6 +908,7 @@ export const PlasmicHomepage = Object.assign(
     form: makeNodeComponent("form"),
     input: makeNodeComponent("input"),
     input2: makeNodeComponent("input2"),
+    phoneInput: makeNodeComponent("phoneInput"),
     input3: makeNodeComponent("input3"),
     checkbox: makeNodeComponent("checkbox"),
     link: makeNodeComponent("link"),
