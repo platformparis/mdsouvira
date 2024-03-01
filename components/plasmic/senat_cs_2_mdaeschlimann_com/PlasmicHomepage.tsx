@@ -596,6 +596,8 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.phoneInput
                             )}
+                            name={"telephone"}
+                            placeholder={"T\u00e9l\u00e9phone"}
                           />
                         </div>
                       </FormItemWrapper>

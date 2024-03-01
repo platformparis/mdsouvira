@@ -7,22 +7,18 @@
 import * as React from "react";
 import { hasVariant, ensureGlobalVariants } from "@plasmicapp/react-web";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
-import { EmbedCss } from "@plasmicpkgs/plasmic-embed-css";
 
 export interface GlobalContextsProviderProps {
   children?: React.ReactElement;
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
-  embedCssProps?: Partial<
-    Omit<React.ComponentProps<typeof EmbedCss>, "children">
-  >;
 }
 
 export default function GlobalContextsProvider(
   props: GlobalContextsProviderProps
 ) {
-  const { children, antdConfigProviderProps, embedCssProps } = props;
+  const { children, antdConfigProviderProps } = props;
 
   return (
     <AntdConfigProvider
@@ -117,16 +113,7 @@ export default function GlobalContextsProvider(
           : false
       }
     >
-      <EmbedCss
-        {...embedCssProps}
-        css={
-          embedCssProps && "css" in embedCssProps
-            ? embedCssProps.css!
-            : ":root {\n    color-scheme: normal;\n}"
-        }
-      >
-        {children}
-      </EmbedCss>
+      {children}
     </AntdConfigProvider>
   );
 }
