@@ -122,7 +122,7 @@ export default function GlobalContextsProvider(
         css={
           embedCssProps && "css" in embedCssProps
             ? embedCssProps.css!
-            : ":root {\n    color-scheme: light;\n}"
+            : ":root {\n    color-scheme: light;\n}\n\n.PhoneInputInput {\n    height: 32px;\n    border-color: #d9d9d9;\n    border-style: solid;\n    border-radius: 6px;\n    border-width: 1px;\n    padding-left: 10px;\n    color: rgba(83, 83, 83, 0.88);\n    font-size: 16px;\n    font-family: Noto Serif;\n}"
         }
       >
         {children}
