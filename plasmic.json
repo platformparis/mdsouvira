@@ -491,6 +491,12 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "J_12Q951wsci",
+          "name": "PhoneInput",
+          "displayName": "PhoneInput",
+          "componentImportPath": "./components/PhoneInput"
         }
       ],
       "customFunctions": []

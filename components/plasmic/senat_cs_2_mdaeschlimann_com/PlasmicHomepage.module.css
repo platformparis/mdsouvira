@@ -154,7 +154,14 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 8px 0px;
+}
+.phoneInput:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  min-width: 0;
 }
 .formField__iLiI:global(.__wab_instance) {
   width: 100%;
