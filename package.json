@@ -12,6 +12,7 @@
     "@plasmicapp/cli": "^0.1.327",
     "@plasmicapp/react-web": "^0.2.321",
     "@plasmicpkgs/antd5": "^0.0.217",
+    "@plasmicpkgs/plasmic-embed-css": "^0.1.176",
     "libphonenumber-js": "^1.10.57",
     "next": "13.5.6",
     "react": "^18",
