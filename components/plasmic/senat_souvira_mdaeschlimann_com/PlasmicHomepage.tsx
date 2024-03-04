@@ -275,7 +275,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             >
               {
-                "Mercredi 13 mars 2024 \u00e0 19h30\nPalais du Luxembourg, 15 rue de Vaugirard, 75006 Paris"
+                "Mercredi 13 mars 2024 \u00e0 19h30\nau S\u00e9nat, Palais du Luxembourg"
               }
             </div>
             {(() => {
