@@ -261,12 +261,23 @@ function PlasmicHomepage__RenderFunc(props: {
                 )}
               >
                 {
-                  "Inscription au Comit\u00e9 des experts\navec Anne Souvira\n13 mars 2024"
+                  "Conf\u00e9rence sur la cybers\u00e9curit\u00e9\navec Anne Souvira"
                 }
               </h1>
             </div>
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__ois6M)}>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__q9LSc
+              )}
+            >
+              {
+                "Mercredi 13 mars 2024 \u00e0 19h30\nPalais du Luxembourg, 15 rue de Vaugirard, 75006 Paris"
+              }
+            </div>
             {(() => {
               try {
                 return (() => {

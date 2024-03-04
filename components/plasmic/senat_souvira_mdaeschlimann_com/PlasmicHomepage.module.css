@@ -89,6 +89,16 @@
   min-width: 0;
   padding: 8px;
 }
+.text__q9LSc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  font-size: 12px;
+  min-width: 0;
+  padding: 8px;
+}
 .form:global(.__wab_instance) {
   display: flex;
   flex-direction: column;
